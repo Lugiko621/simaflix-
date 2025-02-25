@@ -1,0 +1,93 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url(images/tanzania-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+/* CTA Button */
+.cta-button {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #c70000;
+}
+
+/* Destinations Section */
+.destinations {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.destination-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destination {
+    margin: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+}
+
+/* Services Section */
+.services {
+    padding: 40px 20px;
+}
+
+.service-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    margin: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+/* Call to Action Section */
+.cta {
+    padding: 40px 20px;
+    background-color: #ffeb3b;
+    text-align: center;
+}
